@@ -8,8 +8,8 @@ app.use(bodyParser.json());
 // Replace with your details
 const FULL_NAME = "Giriraj Parsewar";
 const DOB = "18102003"; // ddmmyyyy
-const EMAIL = "g";
-const ROLL_NUMBER = "ABCD123";
+const EMAIL = "girirajpradeepparsewar2022@vitbhopal.ac.in";
+const ROLL_NUMBER = "22BCE10681";
 
 app.get("/", (req, res) => {
     res.send({ message: "API running. Use POST /bfhl" });
