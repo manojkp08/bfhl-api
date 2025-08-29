@@ -6,9 +6,9 @@ const app = express();
 app.use(bodyParser.json());
 
 // Replace with your details
-const FULL_NAME = "john_doe";
-const DOB = "17091999"; // ddmmyyyy
-const EMAIL = "john@xyz.com";
+const FULL_NAME = "Giriraj Parsewar";
+const DOB = "18102003"; // ddmmyyyy
+const EMAIL = "g";
 const ROLL_NUMBER = "ABCD123";
 
 app.get("/", (req, res) => {
